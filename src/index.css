@@ -1,0 +1,36 @@
+.custom-play{
+  display: grid;
+  grid-template-columns: 25% 30px auto 1fr 30px 100px;
+  gap: 20px;
+  padding: 15px 30px;
+  background-color: #131739;
+  width: 100%;
+  border-radius: 13px;
+  min-height: 50px;
+  color: white;
+}
+
+.custom-play-duration{
+  display: flex;
+  align-items: center;
+}
+.custom-play-duration{position: relative;}
+.current-time.progress{
+  width: 0;
+  background-color: white;
+  position: absolute;
+  max-height: 5px;
+}
+
+.current-time{
+  width: 100%;
+  background-color: rgba(255, 255, 255, .5);
+  min-height: 5px;
+  border-radius: 3px;
+}
+
+.custom-play-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
